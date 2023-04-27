@@ -48,7 +48,10 @@ width: 234.06px;
 height: 48.6px;
 border: 1px solid  #9C0332;
 margin-top: 44px;
-
+transition: all 1s;
+}
+.form_button:hover {
+ background: #EB443F; 
 }
 .game__box {
 background: #000915;
@@ -74,18 +77,75 @@ padding-top: 128px;
     background-image: url(img/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
+}
+.game__box-img_1:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 .game__box-img_2 {
     background-image: url(img/img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
- 
+}
+.game__box-img_2:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 .game__box-img_3 {
     background-image: url(img/img4.jpg);
     background-repeat: no-repeat;
+    background-size: cover;   
+}
+.game__box-img_3:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #000915;
+    padding-top: 233px;
+    padding-bottom: 233px;
+    gap: 135px;
+}
+
+.top__content_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+
+}
+.top__content_text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    max-width: 584px;
+}
+.form_button_two {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234.06px;
+    height: 48.6px;
+    border: 1px solid  #9C0332;
+    margin-top: 32px;
+    transition: all 1s;
+}
+.form_button_two:hover {
+    background: #EB443F; 
+   }
+.content__img {
+    background-image: url(img/img6.png);
+    background-repeat: no-repeat;
     background-size: cover;
-   
+    width: 485px;
+    height: 333px;
 }
 @import 'mobile';
