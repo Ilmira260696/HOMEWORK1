@@ -148,4 +148,21 @@ padding-top: 128px;
     width: 485px;
     height: 333px;
 }
+.content__two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #000915;
+    padding-top: 239px;
+    padding-bottom: 239px;
+    gap: 135px;
+}
+.content__img_two {
+    background-image: url(img/img8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 481px;
+    height: 322px;
+}
 @import 'mobile';
