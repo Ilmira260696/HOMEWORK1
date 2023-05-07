@@ -71,8 +71,20 @@
         width: 344px;
         height: 236px;
         margin-top: 64px;
-        margin-bottom: 85px;
-        
+        margin-bottom: 85px;   
+    }
+    .content__two {
+        display: flex;
+        flex-direction: column;
+        padding-top: 51px;
+        padding-bottom: 92px;
+        gap: 64px;
+    }
+    .content__img_two {
+        width: 344px;
+        height: 231px;
+        margin-top: 64px;
+        margin-bottom: 92px;   
     }
     }
    
