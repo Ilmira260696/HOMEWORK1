@@ -38,3 +38,23 @@ let numberFriday=5;
 for (;  numberFriday<=31;  numberFriday +=7) {
     console.log (`Сегодня пятница, ${numberFriday}-е число. Необходимо подготовить отчёт.`)
 }
+
+function bark() {
+	console.log('${this.name} лает: Гав!');
+};
+
+const dog1 = {
+	name: 'Шарик',
+	breed: 'корги',
+	weight: 6,
+	age: 2,
+	bark: bark,
+}
+
+const dog2 = {
+	name: 'Бобик',
+	breed: 'шпиц',
+	weight: 3,
+	age: 4,
+	bark: bark,
+}
