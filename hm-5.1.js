@@ -1,5 +1,3 @@
-
-
 function year () {
     let month=Number(prompt('Введите номер месяца в году')); 
     if (month===12 || month===1 || month===2) {
@@ -18,4 +16,3 @@ function year () {
         alert ('Введите число от 1 до 12');
     }
     }
-   
