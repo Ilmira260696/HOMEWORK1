@@ -43,9 +43,17 @@ function get (min, max) {
     console.log (arrayRound);
   }
      getRandomArrNumbers (7)  ;
-     
 
- 
+// function getRandomArrNumbers(n) {
+//return Array.from({length: Math.floor(n / 2)}, () => Math.floor(Math.random() * (n + 1)));
+//}
+
+
+
+console.log(getRandomArrNumbers(7));  // Пример вызова функции с числом 7
+
+console.log(getRandomArrNumbers(12)); // Пример вызова функции с числом 12
+
 // Задание 7
 
 function get (min, max) {
